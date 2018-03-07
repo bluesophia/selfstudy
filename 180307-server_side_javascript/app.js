@@ -45,7 +45,7 @@ app.get('/dynamic', function(req, res){
 
 app.get('/route', function(req, res){
 	res.send('hello Router, <img src="/large.jpg">');
-	//public파일에서 이미지를 가져온다(정적파)
+	//public파일에서 이미지를 가져온다(정적파일)
 })
 
 
